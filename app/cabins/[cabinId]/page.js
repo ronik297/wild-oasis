@@ -8,7 +8,6 @@ import Image from "next/image";
 
 export async function generateMetadata({ params }) {
   const [{ name }] = await getCabin(params.cabinId);
-  console.log(name);
   return {
     title: `Cabin ${name}`,
   };
