@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import CabinCard from "../_components/CabinCard";
 import CabinList from "../_components/CabinList";
 import Spinner from "../_components/Spinner";
 import Filter from "../_components/Filter";
